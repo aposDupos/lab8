@@ -11,5 +11,15 @@
 <a href="index.html">
     <h2>На главную</h2>
 </a>
+<script>
+
+    const numbers = [1, -5, 18, 9, 4]
+    let max_number = numbers[0], n = 5
+    for (let i = 1; i < n; i++) {
+        if (numbers[i] > max_number)
+            max_number = numbers[i]
+    }
+    console.log(max_number)
+</script>
 </body>
 </html>
